@@ -1,0 +1,18 @@
+IOSystem/FileReaderTest.java
+ IOSystem.FileReaderTest
+IOSystem/FileWriterTest.java
+ IOSystem.FileWriterTest
+model/TriangleTest.java
+ model.TriangleTest
+engine/ConsoleConfigReaderTest.java
+ engine.ConsoleConfigReaderTest
+engine/ApplicationDispatcherTest.java
+ engine.ApplicationDispatcherTest
+IOSystem/ConsoleWriterTest.java
+ IOSystem.ConsoleWriterTest
+model/CircleTest.java
+ model.CircleTest
+model/RectangleTest.java
+ model.RectangleTest
+engine/ShapeFactoryTest.java
+ engine.ShapeFactoryTest

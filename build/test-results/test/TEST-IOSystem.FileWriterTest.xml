@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IOSystem.FileWriterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-12T03:56:38" hostname="MacBook-Air-Andrej.local" time="0.013">
+  <properties/>
+  <testcase name="Test checks the correctness of the information output to the file" classname="IOSystem.FileWriterTest" time="0.008"/>
+  <testcase name="The test checks for throwing an exception if the path to the output file is not defined" classname="IOSystem.FileWriterTest" time="0.004"/>
+  <system-out><![CDATA[2021-07-12 10:56:38 DEBUG FileWriter:22 - Start writing data to a file
+2021-07-12 10:56:38 DEBUG FileWriter:31 - Successful completion of writing data to a file
+2021-07-12 10:56:38 DEBUG FileWriter:22 - Start writing data to a file
+2021-07-12 10:56:38 FATAL FileWriter:27 - Program crash, the output file could not be reached
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

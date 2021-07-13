@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="engine.ConsoleConfigReaderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-12T03:56:38" hostname="MacBook-Air-Andrej.local" time="0.013">
+  <properties/>
+  <testcase name="Test checks correct reading of the parameters specified out of order and their correct initialization" classname="engine.ConsoleConfigReaderTest" time="0.009"/>
+  <testcase name="Test checks work of the method if an invalid command line arguments are passed" classname="engine.ConsoleConfigReaderTest" time="0.003"/>
+  <system-out><![CDATA[2021-07-12 10:56:39 DEBUG ConsoleConfigReader:16 - Start reading console arguments
+2021-07-12 10:56:39 DEBUG ConsoleConfigReader:16 - Start reading console arguments
+2021-07-12 10:56:39 FATAL ConsoleConfigReader:34 - Program crash, unexpected flag as argument defined
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

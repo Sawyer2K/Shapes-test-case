@@ -1,0 +1,28 @@
+engine/ApplicationConfigStorage.java
+ engine.ApplicationConfigStorage
+model/Shape.java
+ model.Shape
+IOSystem/Writer.java
+ IOSystem.Writer
+IOSystem/FileWriter.java
+ IOSystem.FileWriter
+engine/ApplicationDispatcher.java
+ engine.ApplicationDispatcher
+engine/ShapeFactory.java
+ engine.ShapeFactory
+model/Triangle.java
+ model.Triangle
+IOSystem/Reader.java
+ IOSystem.Reader
+Main.java
+ Main
+model/Circle.java
+ model.Circle
+model/Rectangle.java
+ model.Rectangle
+IOSystem/FileReader.java
+ IOSystem.FileReader
+engine/ConsoleConfigReader.java
+ engine.ConsoleConfigReader
+IOSystem/ConsoleWriter.java
+ IOSystem.ConsoleWriter

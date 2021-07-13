@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="engine.ShapeFactoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-07-12T03:56:39" hostname="MacBook-Air-Andrej.local" time="0.068">
+  <properties/>
+  <testcase name="The test checks that the method throws an IllegalArgumentException if invalid shape's type is passed" classname="engine.ShapeFactoryTest" time="0.01"/>
+  <testcase name="The test checks that the method throws an IllegalArgumentException if an empty parameter's List is passed" classname="engine.ShapeFactoryTest" time="0.003"/>
+  <testcase name="The test checks that the method throws an IllegalArgumentException if zero was passed as a parameter" classname="engine.ShapeFactoryTest" time="0.003"/>
+  <testcase name="The test checks that the method throws an IllegalArgumentException if not enough parameters are passed for this shape" classname="engine.ShapeFactoryTest" time="0.007"/>
+  <testcase name="The test checks that the method throws an IllegalArgumentException if too many parameters are passed for this shape" classname="engine.ShapeFactoryTest" time="0.005"/>
+  <testcase name="The test checks that the method throws an IllegalArgumentException if one of the parameters is a negative number" classname="engine.ShapeFactoryTest" time="0.034"/>
+  <system-out><![CDATA[2021-07-12 10:56:39 DEBUG ShapeFactory:14 - Starting to create shape
+2021-07-12 10:56:39 DEBUG ShapeFactory:20 - Checking that the List of input data for initializing shapes is not empty
+2021-07-12 10:56:39 DEBUG ShapeFactory:26 - Converting list of input parameters from String to Double type
+2021-07-12 10:56:39 FATAL ShapeFactory:42 - Program crash, an unexpected type of a shape was passed to the switch statement
+2021-07-12 10:56:39 DEBUG ShapeFactory:14 - Starting to create shape
+2021-07-12 10:56:39 DEBUG ShapeFactory:20 - Checking that the List of input data for initializing shapes is not empty
+2021-07-12 10:56:39 DEBUG ShapeFactory:26 - Converting list of input parameters from String to Double type
+2021-07-12 10:56:39 FATAL ShapeFactory:88 - Invalid list of parameters was passed
+2021-07-12 10:56:39 DEBUG ShapeFactory:14 - Starting to create shape
+2021-07-12 10:56:39 DEBUG ShapeFactory:20 - Checking that the List of input data for initializing shapes is not empty
+2021-07-12 10:56:39 DEBUG ShapeFactory:26 - Converting list of input parameters from String to Double type
+2021-07-12 10:56:39 FATAL ShapeFactory:74 - Invalid parameters were passed into the rectangle
+2021-07-12 10:56:39 DEBUG ShapeFactory:14 - Starting to create shape
+2021-07-12 10:56:39 DEBUG ShapeFactory:20 - Checking that the List of input data for initializing shapes is not empty
+2021-07-12 10:56:39 DEBUG ShapeFactory:26 - Converting list of input parameters from String to Double type
+2021-07-12 10:56:39 FATAL ShapeFactory:68 - Invalid list of parameters was passed
+2021-07-12 10:56:39 DEBUG ShapeFactory:14 - Starting to create shape
+2021-07-12 10:56:39 DEBUG ShapeFactory:20 - Checking that the List of input data for initializing shapes is not empty
+2021-07-12 10:56:39 DEBUG ShapeFactory:26 - Converting list of input parameters from String to Double type
+2021-07-12 10:56:39 FATAL ShapeFactory:53 - Invalid list of parameters was passed
+2021-07-12 10:56:39 DEBUG ShapeFactory:14 - Starting to create shape
+2021-07-12 10:56:39 DEBUG ShapeFactory:20 - Checking that the List of input data for initializing shapes is not empty
+2021-07-12 10:56:39 DEBUG ShapeFactory:26 - Converting list of input parameters from String to Double type
+2021-07-12 10:56:39 FATAL ShapeFactory:94 - Invalid parameters were passed into the triangle
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
